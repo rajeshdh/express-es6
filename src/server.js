@@ -1,8 +1,8 @@
-// Importing node modules
+// Impor node modules
 import express from 'express';
-// Importing source files
+// Import routes
 import routes from './routes/main.routes';
-// consts
+
 const app = express();
 
 app.use('/', routes);
